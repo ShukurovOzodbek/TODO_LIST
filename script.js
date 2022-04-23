@@ -2,24 +2,24 @@ let cont = document.querySelector('.container')
 let form = document.forms[0]
 let inputs = form.querySelectorAll('input')
 let tasks = [
-    {
-        id: Math.random(),
-        task: 'something',
-        time: "10:45",
-        isChecked: false
-    },
-    {
-        id: Math.random(),
-        task: 'something',
-        time: "10:45",
-        isChecked: false
-    },
-    {
-        id: Math.random(),
-        task: 'something',
-        time: "10:45",
-        isChecked: false
-    }
+    // {
+    //     id: Math.random(),
+    //     task: 'something',
+    //     time: "10:45",
+    //     isChecked: false
+    // },
+    // {
+    //     id: Math.random(),
+    //     task: 'something',
+    //     time: "10:45",
+    //     isChecked: false
+    // },
+    // {
+    //     id: Math.random(),
+    //     task: 'something',
+    //     time: "10:45",
+    //     isChecked: false
+    // }
 ]
 
 form.onsubmit = (event) => {
